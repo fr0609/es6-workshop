@@ -87,7 +87,7 @@ test('can reach nested arrays', () => {
 //
 /////////// Feedback ///////////
 /*
-http://ws.kcd.im/?ws=ES6+and+Beyond&e=Destructuring&em=
+http://ws.kcd.im/?ws=ES6+and+Beyond&e=Destructuring&em=fr0609@gmail.com
 */
 ////////////////////////////////
 
