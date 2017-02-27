@@ -51,7 +51,7 @@ test('means that we can start using block statements', () => {
   // BLOCK STATEMENT
   {
     // Change to `const` declaration
-    var d = 2
+    const d = 2
   }
 
   expect(() => noop('d', d)).toThrow('d is not defined')
@@ -75,11 +75,13 @@ http://ws.kcd.im/?ws=ES6+and+Beyond&e=Block+Scoping&em=fr0609@gmail.com
 
 //////// EXTRA CREDIT ////////
 
-test.skip('means that we can declare constant with the same name in block statement', () => {
+test('means that we can declare constant with the same name in block statement', () => {
   // Declare a 'd' using 'const', setting the value to 5
+const d=5
   // BLOCK STATEMENT
   {
     // Declare a 'd' using 'const', setting the value to 10
+    const d = 10
     expect(d).toBe(10)
   }
   expect(d).toBe(5)
